@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+order: 1
 permalink: /
 subtitle: A personal blog about to share my thoughts and work regarding things I am interested in, learning about or trying to figure out.
 
