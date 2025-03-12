@@ -21,7 +21,7 @@ To include a jupyter notebook in a post, you can use the following code:
   {% jupyter_notebook jupyter_path %}
 {% else %}
   <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
+{% endfor %}
 {:/nomarkdown}
 ```
 
