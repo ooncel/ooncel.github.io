@@ -56,8 +56,8 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
-{% if featured_posts.size > 0 %}
+# {% assign featured_posts = site.posts | where: "featured", "true" %}
+# {% if featured_posts.size > 0 %}
 <br>
 
 <div class="container featured-posts">
