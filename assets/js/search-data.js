@@ -23,18 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-a-post-with-jupyter-notebook",
-      
-        title: "a post with jupyter notebook",
-      
-      description: "an example of a blog post with jupyter notebook",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/jupyter-notebook/";
-        
-      },
-    },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+        },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
       
         title: "a post with table of contents on a sidebar",
       
@@ -54,6 +43,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/tables/";
+        
+      },
+    },{id: "post-a-post-with-formatting-and-links",
+      
+        title: "a post with formatting and links",
+      
+      description: "march &amp; april, looking forward to summer",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2015/test/";
         
       },
     },{id: "post-a-post-with-formatting-and-links",
